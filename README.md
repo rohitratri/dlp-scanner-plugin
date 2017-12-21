@@ -1,4 +1,4 @@
-#DLP Scanner - A simple firefox plugin
+# DLP Scanner - A simple firefox plugin
 
 A simple firefox plugin which scans the currently loaded web page for presence of credit card & social security numbers and highlight them. In case of forms, the plugin warns the user if she is submitting either of the aforementioned personal data.
 
