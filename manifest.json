@@ -1,8 +1,8 @@
 {
   "manifest_version": 2,
-  "name": "Emoji Substitution",
-  "description": "Replaces words with emojis.",
-  "homepage_url": "https://github.com/mdn/webextensions-examples/tree/master/emoji-substitution",
+  "name": "DLP Scanner",
+  "description": "Highlights credit card & social security numbers & alerts user on form submit",
+  "homepage_url": "https://github.com/rohitratri/dlp-scanner-plugin",
   "version": "1.0",
   "icons": {
     "48": "icons/icon.png",
@@ -12,7 +12,7 @@
   "content_scripts": [
     {
       "matches": ["<all_urls>"],
-      "js": ["./substitute.js"]
+      "js": ["./scan.js"]
     }
   ],
   "background": {

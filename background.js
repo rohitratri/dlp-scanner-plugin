@@ -1,6 +1,6 @@
 
 function alertme(){
-    console.log('Hello!');
+    console.log('A completely useless log line when the page loads!');
 }
 
 // Listener to check for submit events
